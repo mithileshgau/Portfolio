@@ -27,7 +27,7 @@ const ProjectsSection = ({
       description:
         "Easy Enroll is a smart class registration system built on AWS that uses an enhanced Gale-Shapley algorithm and OpenAI's language model to match students with their preferred courses, maximizing overall happiness while preventing the chaos typically associated with course registration",
       image:
-        "public/Class_Registration_system.jpg",
+        "Class_Registration_system.jpg",
       tags: ["React", "Java", "SpringBoot", "OpenAI", "AWS", "EC2"],
       demoUrl: "https://github.com/bhavesh2103/aws-class-registration-system/assets/55141824/8aeefcdc-ecc7-46b5-a6c3-710af7d28b9b",
       repoUrl: "https://github.com/bhavesh2103/aws-class-registration-system",
@@ -49,7 +49,7 @@ const ProjectsSection = ({
       description:
         "OpenPose-Analysis is a real-time sports analytics project that uses computer vision to track badminton players' movements, extracting key body coordinates to calculate metrics like total distance traveled, average speed, movement heatmaps, and court quadrant dominance for performance evaluation and strategic decision-making.",
       image:
-        "public/Sport-Analysis.jpg",
+        "Sport-Analysis.jpg",
       tags: ["OpenPose Model", "Python", "Google Colab", "Matplotlib"],
       demoUrl: "https://example.com/demo3",
       repoUrl: "https://github.com/mithileshgau/Openpose-Analysis",
@@ -60,7 +60,7 @@ const ProjectsSection = ({
       description:
         "TopicBubbler is an innovative visual analytics system that enables users to interactively explore social media data across multiple hierarchical levels, offering six distinct visualization views to analyze topics, temporal trends, keyword correlations, and document content from coronavirus-related tweets",
       image:
-        "public/Social-media-analysis.jpg",
+        "Social-media-analysis.jpg",
       tags: ["D3.js", "Python", "FAST-API", "LDA", "CSV", "JSON", "Parquet"],
       demoUrl: "https://example.com/demo4",
       repoUrl: "https://github.com/mithileshgau/topic-bubbler",

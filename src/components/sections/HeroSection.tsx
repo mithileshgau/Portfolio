@@ -22,7 +22,7 @@ const HeroSection = ({
   description = "Innovative Software Engineer with MS in Computer Science from Arizona State University and 2+ years of global experience at SAP Labs. Proficient in full-stack development using JavaScript, Python, React, and Node.js, with expertise in cloud technologies (AWS) and database management. Skilled in AI integration, having developed applications utilizing OpenAI and Gemini AI APIs. Seeking to leverage technical expertise and problem-solving abilities in challenging development projects",
   // take poto from public/photo.jpg
   avatarUrl = "photo.jpg", 
-  resumeUrl = "public/MithileshGaurihar_Resume.pdf",
+  resumeUrl = "MithileshGaurihar_Resume.pdf",
   socialLinks = {
     github: "https://github.com/mithileshgau",
     linkedin: "https://linkedin.com/in/mithilesh-gaurihar",

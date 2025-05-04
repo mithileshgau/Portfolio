@@ -47,7 +47,7 @@ const ExperienceSection = ({
         "Improved team productivity by 15% through GitHub for version control and collaborative development"
       ],
       skills: ["Node.js", "Express.js", "React", "RESTful APIs", "SAP HANA DB", "GitHub", "Database Administration", "Agile Methodology"],
-      logo: "public/Sap-01.png",
+      logo: "Sap-01.png",
       current: false,
     },
     {
@@ -64,7 +64,7 @@ const ExperienceSection = ({
         "Accelerated decision-making and improved resource allocation effectiveness through system optimizations"
       ],
       skills: ["Full-stack Development", "API Integration", "Unit Testing", "Web Application Development", "Scheduler Monitoring", "Code Quality Assurance"],
-      logo: "public/Sap-01.png",
+      logo: "Sap-01.png",
     },
     // {
     //   id: "3",
