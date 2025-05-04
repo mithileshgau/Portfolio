@@ -129,32 +129,32 @@ const Home = () => {
                 <div className="flex items-center space-x-3">
                   <Mail className="text-primary" />
                   <a
-                    href="mailto:your.email@example.com"
+                    href="mailto:mgauriha@asu.edu"
                     className="hover:text-primary transition-colors"
                   >
-                    your.email@example.com
+                    mgauriha@asu.edu
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Github className="text-primary" />
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/mithileshgau"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
                   >
-                    github.com/yourusername
+                    github.com/mithileshgau
                   </a>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Linkedin className="text-primary" />
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://linkedin.com/in/mithilesh-gaurihar"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors"
                   >
-                    linkedin.com/in/yourusername
+                    linkedin.com/in/mithilesh-gaurihar
                   </a>
                 </div>
               </div>
@@ -216,11 +216,11 @@ const Home = () => {
       <footer className="bg-muted py-8 mt-16">
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} Mithilesh Gaurihar. All rights reserved.
           </p>
           <div className="flex justify-center space-x-4 mt-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/mithileshgau"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -228,14 +228,14 @@ const Home = () => {
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/mithilesh-gaurihar"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
-            <a href="mailto:your.email@example.com" aria-label="Email">
+            <a href="mailto:mgauriha@asu.edu" aria-label="Email">
               <Mail className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
           </div>

@@ -23,70 +23,70 @@ const ProjectsSection = ({
   projects = [
     {
       id: "1",
-      title: "E-Commerce Platform",
+      title: "Class Registration System - Easy Enroll",
       description:
-        "A full-stack e-commerce platform with user authentication, product management, and payment processing.",
+        "Easy Enroll is a smart class registration system built on AWS that uses an enhanced Gale-Shapley algorithm and OpenAI's language model to match students with their preferred courses, maximizing overall happiness while preventing the chaos typically associated with course registration",
       image:
-        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoUrl: "https://example.com/demo",
-      repoUrl: "https://github.com/username/project",
+        "public/Class_Registration_system.jpg",
+      tags: ["React", "Java", "SpringBoot", "OpenAI", "AWS", "EC2"],
+      demoUrl: "https://github.com/bhavesh2103/aws-class-registration-system/assets/55141824/8aeefcdc-ecc7-46b5-a6c3-710af7d28b9b",
+      repoUrl: "https://github.com/bhavesh2103/aws-class-registration-system",
     },
     {
       id: "2",
-      title: "Task Management App",
+      title: "AI Documentation Generator - DevDoc AI",
       description:
-        "A productivity application for managing tasks, projects, and team collaboration.",
+        "DevDoc AI is an AI-powered web application that automatically generates comprehensive code documentation by analyzing source files across multiple programming languages, providing developers with an intuitive interface to upload code, preview the resulting documentation, and download it in Markdown format",
       image:
         "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
-      tags: ["Vue.js", "Firebase", "Tailwind CSS"],
-      demoUrl: "https://example.com/demo2",
-      repoUrl: "https://github.com/username/project2",
+      tags: ["React", "Python", "Flask", "GeminiAI", "Langchain"],
+      demoUrl: "https://devdoc-ai-frontend.onrender.com/",
+      repoUrl: "https://github.com/mithileshgau/DevDoc-AI/",
     },
     {
       id: "3",
-      title: "Weather Dashboard",
+      title: "Analysis for Badminton Player Movement",
       description:
-        "Real-time weather application with location-based forecasts and interactive maps.",
+        "OpenPose-Analysis is a real-time sports analytics project that uses computer vision to track badminton players' movements, extracting key body coordinates to calculate metrics like total distance traveled, average speed, movement heatmaps, and court quadrant dominance for performance evaluation and strategic decision-making.",
       image:
-        "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&q=80",
-      tags: ["JavaScript", "Weather API", "Chart.js"],
+        "public/Sport-Analysis.jpg",
+      tags: ["OpenPose Model", "Python", "Google Colab", "Matplotlib"],
       demoUrl: "https://example.com/demo3",
-      repoUrl: "https://github.com/username/project3",
+      repoUrl: "https://github.com/mithileshgau/Openpose-Analysis",
     },
     {
       id: "4",
-      title: "Social Media Analytics",
+      title: "Social Media Analytics - TopicBubbler",
       description:
-        "Dashboard for tracking and analyzing social media performance across multiple platforms.",
+        "TopicBubbler is an innovative visual analytics system that enables users to interactively explore social media data across multiple hierarchical levels, offering six distinct visualization views to analyze topics, temporal trends, keyword correlations, and document content from coronavirus-related tweets",
       image:
-        "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80",
-      tags: ["React", "D3.js", "Node.js", "OAuth"],
+        "public/Social-media-analysis.jpg",
+      tags: ["D3.js", "Python", "FAST-API", "LDA", "CSV", "JSON", "Parquet"],
       demoUrl: "https://example.com/demo4",
-      repoUrl: "https://github.com/username/project4",
+      repoUrl: "https://github.com/mithileshgau/topic-bubbler",
     },
     {
       id: "5",
-      title: "Fitness Tracker",
+      title: "Time Series analysis using News Sentiment Data",
       description:
-        "Mobile application for tracking workouts, nutrition, and fitness progress.",
+        "Time Series analysis using News Sentiment Data is a predictive modeling project that leverages LSTM networks and sentiment analysis of financial news to forecast stock prices with greater accuracy than traditional methods alone.",
       image:
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
-      tags: ["React Native", "GraphQL", "HealthKit"],
+        "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80",
+      tags: ["Python", "LSTM", "Pandas", "NumPy", "Matplotlib"],
       demoUrl: "https://example.com/demo5",
-      repoUrl: "https://github.com/username/project5",
+      repoUrl: "https://github.com/mithileshgau/Time-Series-Analyis-Using-News-Sentiment",
     },
-    {
-      id: "6",
-      title: "AI Image Generator",
-      description:
-        "Web application that uses machine learning to generate custom images based on text prompts.",
-      image:
-        "https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&q=80",
-      tags: ["Python", "TensorFlow", "React", "Flask"],
-      demoUrl: "https://example.com/demo6",
-      repoUrl: "https://github.com/username/project6",
-    },
+    // {
+    //   id: "6",
+    //   title: "AI Image Generator",
+    //   description:
+    //     "Web application that uses machine learning to generate custom images based on text prompts.",
+    //   image:
+    //     "https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&q=80",
+    //   tags: ["Python", "TensorFlow", "React", "Flask"],
+    //   demoUrl: "https://example.com/demo6",
+    //   repoUrl: "https://github.com/username/project6",
+    // },
   ],
   title = "My Projects",
   description = "A showcase of my recent work, personal projects, and contributions to open-source software.",
@@ -138,9 +138,9 @@ const ProjectsSection = ({
                   key={project.id}
                   title={project.title}
                   description={project.description}
-                  image={project.image}
-                  tags={project.tags}
-                  demoUrl={project.demoUrl}
+                  imageUrl={project.image}
+                  technologies={project.tags}
+                  // demoUrl={project.demoUrl}
                   repoUrl={project.repoUrl}
                 />
               ))}

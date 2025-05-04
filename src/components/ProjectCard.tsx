@@ -14,7 +14,7 @@ interface ProjectCardProps {
   description?: string;
   imageUrl?: string;
   technologies?: string[];
-  demoUrl?: string;
+  // demoUrl?: string;
   repoUrl?: string;
 }
 
@@ -23,7 +23,7 @@ const ProjectCard = ({
   description = "A short description of the project showcasing the key features and technologies used.",
   imageUrl = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80",
   technologies = ["React", "TypeScript", "Tailwind CSS"],
-  demoUrl = "#",
+  // demoUrl = "#",
   repoUrl = "#",
 }: ProjectCardProps) => {
   return (
@@ -52,12 +52,12 @@ const ProjectCard = ({
       </CardContent>
 
       <CardFooter className="flex justify-between pt-4 gap-2">
-        <Button variant="outline" size="sm" asChild>
+        {/* <Button variant="outline" size="sm" asChild>
           <a href={demoUrl} target="_blank" rel="noopener noreferrer">
             <Eye className="mr-2 h-4 w-4" />
             Demo
           </a>
-        </Button>
+        </Button> */}
         <Button variant="outline" size="sm" asChild>
           <a href={repoUrl} target="_blank" rel="noopener noreferrer">
             <Github className="mr-2 h-4 w-4" />
