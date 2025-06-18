@@ -38,11 +38,11 @@ const ExperienceSection = ({
       location: "India",
       description: "Played a key role as a Developer in the Agile Project team, developing backend services and responsive user interfaces while ensuring data integrity and resolving customer incidents.",
       achievements: [
-        "Developed a Commodity Management project using Node.js and Express for the backend",
+        "Developed a Commodity Management project using Java and Spring for the backend",
         "Utilized React to build responsive user interfaces, improving overall user experience and reducing load times by 30%",
-        "Developed RESTful APIs with Express.js to facilitate seamless communication between frontend and backend services",
+        "Developed RESTful APIs with Java to facilitate seamless communication between frontend and backend services",
         "Efficiently resolved more than 10 Priority-3 customer incidents",
-        "Created utility software with Node.js to reduce data inconsistencies by 20%",
+        "Created utility software with Java to reduce data inconsistencies by 20%",
         "Conducted database administration and consistency testing for 4 tables in SAP HANA DB",
         "Improved team productivity by 15% through GitHub for version control and collaborative development"
       ],
